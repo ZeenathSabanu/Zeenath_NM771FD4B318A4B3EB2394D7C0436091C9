@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Digital-portfolio</title>
+        <style>
+            body{
+                font-family:'Times New Roman', Times, serif;
+                margin: 0;
+                padding: 0;
+                background-color:#333;
+            }
+            header{
+                background-color:lightcoral;
+                color:#fff;
+                text-align: center;
+                padding: 0;
+                position:unset;
+            }
+            .header-content h1{
+                font-size:2.5rem;
+            }
+            .profile-picture{
+                width: 100px;
+                height: 100px;
+                border-radius: 75%;
+                object-fit: cover;
+                position:-webkit-sticky;
+                top: 75%;
+                left: 75px;
+            }
+            nav{
+                background-color: #333;
+                color:#fff;
+                text-align:left;
+            }
+            nav ul{
+                list-style-type:none;
+                padding: 0;
+
+            }
+            nav ul li{
+                display:inline;
+                margin: 0 20px;
+            }
+            nav ul li a{
+                text-decoration:none;
+                color: #fff;
+            }
+            .section-content{
+                background-color:ivory;
+                -webkit-text-fill-color: black;
+                padding: 2rem;
+                margin: 1rem;
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+
+    </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <img src="zeenath.jpg" alt="Your Profile Picture" class="profile-picture"/>
+                <h1>Zeenath Sabanu</h1>
+                <p>Creative Thinker On Web Technology</p>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="about">About</a></li>
+                <li><a href="education">Education</a></li>
+                <li><a href="skills">Skills</li>
+            </ul>
+        </nav>
+        <section id="about">
+            <div class="section-content">
+                <h3>ABOUT ME</h3>
+                <p>Hi!This is Zeenath Sabanu.I have interested to learning more about computer technology.
+                 <h4>MY DETAILS</h4>
+                 <ul>
+                    <li>ZEENATH SABANU M</li>
+                    <li>DOB:05/06/2004</li>
+                    <li>Mail id:zeenathsabanubca05@gmail.com</li>
+                 </ul>
+
+                </p>
+            </div>       
+         </section>
+         <section id="education">
+            <div class="section-content">
+                <h3>EDUCATION</h3>
+                <p>Pursuing UG in Maharani Arts & Science College </p>
+            </div> 
+            </section>
+            <section id="skills">
+                <div class="section-content">
+                    <h3>SKILLS</h3>
+                    <h4>LANGUAGES KNOWN</h4>
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>JAVA</li>
+                    </ul>
+                </div> 
+                </section>  
+                <header>
+                    <p>&copy; 2023 Zeenath Sabanu</p>
+                
+                </header> 
+       </body>
+       </html>
